@@ -10,11 +10,11 @@ public class SumOfDigits {
         System.out.print("Enter a number: ");
         int number = input.nextInt();
         
-        int firstDigit= number % 10;
-        number=number/10;
-        int secondDigit= number % 10;
-        number=number/10;
-        int thirdDigit= number % 10;
+        int firstDigit = number % 10;
+        number=number / 10;
+        int secondDigit = number % 10;
+        number=number / 10;
+        int thirdDigit = number % 10;
         
         int sum = firstDigit + secondDigit + thirdDigit;
 
