@@ -18,7 +18,7 @@ public class SumOfDigits {
         
         int sum = firstDigit + secondDigit + thirdDigit;
 
-       System.out.println("Sum of digits:" + sum );
+       System.out.println("Sum of digits: " + sum );
        
     }
 
